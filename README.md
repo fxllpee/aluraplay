@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Vídeos da sessão vídeos:
 
         <li class="videos__item">
@@ -179,3 +180,6 @@ Vídeos da sessão vídeos:
                 <p>2,3 mil visualizações - Há 2 dias</p>
             </div>
         </li>
+=======
+# aluraplay
+>>>>>>> a78d3fec35b6bb9819ce9c0f44d6072dbcf4e841
