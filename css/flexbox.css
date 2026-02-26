@@ -1,0 +1,55 @@
+/* cabeçalho */
+
+.cabecalho__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /*faz que o elemento fique fixo na tela*/
+    top: 0;
+    /*define a posição do elemento em relação ao topo da página*/
+}
+
+.cabecalho__pesquisar__item {
+    display: none;
+    /*oculta o elemento por padrão, para isso utilizamos o display none*/
+
+}
+
+/* seçao superior */
+
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /*impede que os itens sejam quebrados em várias linhas, para isso utilizamos o white-space nowrap*/
+    overflow: scroll;
+    gap: 10px
+}
+
+/* configuração para celular e tablete */
+
+@media (min-width: 834px) {
+
+    /* cabeçalho*/
+    .cabecalho__pesquisar__item {
+        display: block;
+        /*exibe o elemento quando a largura da tela for maior ou igual a 834px, para isso utilizamos o display block*/
+    }
+
+    /* rodape */
+    .rodape__container {
+        justify-content: space-between;
+        /*alinha os itens com espaço entre eles, para isso utilizamos o justify-content space-between*/
+    }
+}
+
+/* rodape */
+
+.rodape__container {
+    display: flex;
+    flex-direction: column;
+    /*alinha os itens em coluna, para isso utilizamos o flex-direction column*/
+    flex-wrap: wrap;
+    /*permite que os itens sejam quebrados em várias linhas, para isso utilizamos o flex-wrap wrap*/
+
+}
